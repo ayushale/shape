@@ -1,0 +1,5 @@
+Flask==2.2.2
+owlready2==0.38
+transformers==4.31.0
+torch==2.0.1
+Jinja2==3.1.2

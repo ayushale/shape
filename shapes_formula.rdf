@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula/"
+     xml:base="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:shapeandformula="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#hasAreaFormula -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#hasAreaFormula"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#hasPerimeterFormula -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#hasPerimeterFormula"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Circle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Circle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Rectangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Rectangle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Square -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Square"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Triangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Triangle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#circle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#circle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Circle"/>
+        <shapeandformula:hasAreaFormula>π × r²</shapeandformula:hasAreaFormula>
+        <shapeandformula:hasPerimeterFormula>2 × π × r</shapeandformula:hasPerimeterFormula>
+        <rdfs:label>circle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#rectangle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#rectangle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Rectangle"/>
+        <shapeandformula:hasAreaFormula>length × width</shapeandformula:hasAreaFormula>
+        <shapeandformula:hasPerimeterFormula>2 × (length + width)</shapeandformula:hasPerimeterFormula>
+        <rdfs:label>rectangle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#square -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#square">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Square"/>
+        <shapeandformula:hasAreaFormula>side × side</shapeandformula:hasAreaFormula>
+        <shapeandformula:hasPerimeterFormula>4 × side</shapeandformula:hasPerimeterFormula>
+        <rdfs:label>square</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#triangle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#triangle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sandip/ontologies/2024/11/shapeandformula#Triangle"/>
+        <shapeandformula:hasAreaFormula>0.5 × base × height</shapeandformula:hasAreaFormula>
+        <rdfs:label>triangle</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
